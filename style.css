@@ -1,24 +1,44 @@
-h1 {
-	font-size: 16px;
-	text-align: center;
-	/* width: 100%; */
-}
-
 .hidden {
 	display: none;
 }
-/* 
+/*
 #enter {
   display: none;
 } */
 
+table {
+	border: 1px solid brown;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
 td {
-	border: 1px solid black;
-	font-size: 50px;
-	height: 50px;
-	line-height: 50px;
+	font-size: 30px;
+	height: 30px;
+	line-height: 30px;
 	text-align: center;
-	width: 50px;
+	margin: 0px;
+	width: 30px;
+}
+
+.row-header,
+.header,
+.footer {
+	background-color: lightsalmon;
+	font-size: 20px;
+}
+
+.header td,
+.footer td {
+	font-size: 20px;
+}
+
+.white {
+	background-color: white;
+}
+
+.black {
+	background-color: brown;
 }
 
 .O {
